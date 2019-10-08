@@ -17,7 +17,7 @@ targets = $(txt_sources:.txt=.bin) $(rcw_sources:.rcw=.bin) $(swap_sources)
 	$(RCW) -i $< -o $@
 
 all: $(targets)
-	$(QSPI_SWAP_SCRIPT) $(QSPI_SWAP_LIST)
+	TCL=$(TCL) $(QSPI_SWAP_SCRIPT) $(QSPI_SWAP_LIST)
 
 install: $(targets)
 	$(INSTALL) -d $(DESTDIR)
