@@ -10,7 +10,7 @@
  *
  * Core		-- 1200 MHz (Mul 12)
  * Platform	-- 400 MHz (Mul 4)
- * DDR		-- 1200 MT/s (Mul 12)
+ * DDR		-- 1300 MT/s (Mul 13)
  * FMan		-- 500 MHz (CGA2 /2)
  * XFI		-- 156.25 MHz (10.3125G)
  * SGMII	-- 100 MHz (5G)
@@ -66,7 +66,7 @@
 #include <ls1046a.rcwi>
 
 SYS_PLL_RAT=4
-MEM_PLL_RAT=12
+MEM_PLL_RAT=13
 CGA_PLL1_RAT=12
 CGA_PLL2_RAT=10
 SRDS_PRTCL_S1=4403
