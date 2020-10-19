@@ -111,10 +111,7 @@ write 0x570604, 0x40100000
 #include <pex_gen3_link.rcw>
 #include <a009531.rcw>
 
-.pbi
-// QSPI END_CFG 64 bit LE
-write 0x550000, 0x000f400c
-.end
+#include <../ls1046ardb/qspi_endianness.rcw>
 
 .pbi
 // Alt base register
