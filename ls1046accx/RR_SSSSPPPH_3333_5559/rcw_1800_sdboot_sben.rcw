@@ -63,7 +63,7 @@
  *
  */
 
-#include <ls1046a.rcwi>
+#include <../ls1046ardb/ls1046a.rcwi>
 
 SYS_PLL_RAT=6
 MEM_PLL_RAT=21
@@ -101,20 +101,20 @@ HWA_CGA_M2_CLK_SEL=1
 IFC_GRP_D_BASE=1
 
 .pbi
-// QSPI flash clock
+// Set the BOOTLOCPTR
 write 0x570600, 0x00000000
 write 0x570604, 0x10000000
 .end
 
-#include <cci_barrier_disable.rcw>
-#include <usb_phy_freq.rcw>
-#include <serdes_sata.rcw>
-#include <pex_gen3_link.rcw>
-#include <a009531.rcw>
+#include <../ls1046ardb/cci_barrier_disable.rcw>
+#include <../ls1046ardb/usb_phy_freq.rcw>
+#include <../ls1046ardb/serdes_sata.rcw>
+#include <../ls1046ardb/a009531.rcw>
 
 .pbi
 // Alt base register
 write 0x570158, 0x00001000
+flush
 .end
 
 .pbi
