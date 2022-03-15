@@ -14,7 +14,7 @@
  *
  */
 
-#include <ls1012a.rcwi>
+#include <../ls1012ardb/ls1012a.rcwi>
 
 %littleendian64b=1
 %dont64bswapcrc=1
