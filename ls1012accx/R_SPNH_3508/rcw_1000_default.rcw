@@ -41,7 +41,7 @@ EVDD_VSEL=2
 IIC1_BASE=1
 SYSCLK_FREQ=600
 
-#include <../ls1012ardb/uboot_address.rcw>
+#include <uboot_address.rcw>
 #include <../ls1012ardb/usb_phy_freq.rcw>
 #include <../ls1012ardb/serdes_sata.rcw>
 #include <../ls1012ardb/clock_out.rcw>
