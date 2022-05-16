@@ -46,6 +46,5 @@ SYSCLK_FREQ=600
 #include <uboot_address.rcw>
 #include <../ls1012ardb/usb_phy_freq.rcw>
 #include <../ls1012ardb/serdes_sata.rcw>
-#include <secure_boot.rcw>
 #include <../ls1012ardb/a009531.rcw>
 #include <../ls1012ardb/qspi_endianness.rcw>
