@@ -10,7 +10,7 @@
  *
  * Core		-- 1800 MHz (Mul 18)
  * Platform	-- 700 MHz (Mul 7)
- * DDR		-- 2100 MT/s (Mul 21)
+ * DDR		-- 1900 MT/s (Mul 19)
  * FMan		-- 800 MHz (CGA2 /2)
  * XFI		-- 156.25 MHz (10.3125G)
  * SGMII	-- 100 MHz (5G)
@@ -69,7 +69,7 @@
 %dont64bswapcrc=1
 
 SYS_PLL_RAT=6
-MEM_PLL_RAT=21
+MEM_PLL_RAT=19
 CGA_PLL1_RAT=18
 CGA_PLL2_RAT=14
 SRDS_PRTCL_S1=13107
