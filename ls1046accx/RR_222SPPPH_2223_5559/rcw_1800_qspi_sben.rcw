@@ -39,7 +39,7 @@
  *
  *  SRDS_PLL_REF_CLK_SEL_S1 : 0b'00
  *    SerDes 1, PLL1[160] : 0 - 100MHz for SGMII and PCIe
- *    SerDes 1, PLL2[161] : 0 -
+ *    SerDes 1, PLL2[161] : 0 - 125MHz for 2.5G SGMII
  *  SRDS_PLL_PD_S1 : 0b'0
  *    SerDes 1, PLL1 : 0 - not power down
  *    SerDes 1, PLL2 : 0 - not power down
@@ -80,7 +80,7 @@ SRDS_DIV_PEX_S1=1
 SRDS_DIV_PEX_S2=1
 DDR_FDBK_MULT=2
 DDR_REFCLK_SEL=1
-SRDS_REFCLK_SEL_S1=1
+SRDS_REFCLK_SEL_S1=0
 SRDS_REFCLK_SEL_S2=1
 PBI_SRC=4
 SB_EN=1
