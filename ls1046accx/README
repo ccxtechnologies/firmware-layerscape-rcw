@@ -21,6 +21,7 @@ For the Slots (c..j):
  'P' is PCIe
  'X' is XAUI
  'S' is SGMII
+ '2' is 2.5 SGMII
  'Q' if QSGMII
  'F' is XFI
  'H' is SATA
