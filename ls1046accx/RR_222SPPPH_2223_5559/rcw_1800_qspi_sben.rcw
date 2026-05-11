@@ -1,5 +1,5 @@
 /*
- * LS1046CCX RCW for SerDes Protocol 0x3333_5559
+ * LS1046CCX RCW for SerDes Protocol 0x2223_5559
  *
  * 24G configuration -- 2 RGMII + 4 SGMII + 3 PCIe + SATA
  *
